@@ -1,3 +1,118 @@
 body {
-  background: peachpuff;
+  background: blanchedalmond;
+  margin: 0;
+  text-align: center;
+}
+
+* {
+  border: 1px solid white;
+}
+
+.container, .work{
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.a {
+  background-color: rgb(215, 73, 153);
+  max-width: 100%;
+  flex-basis: 100%;
+  flex-grow: 1;
+  height: 20vh;
+}
+.work{
+  max-height: 40vh;
+  flex-grow: 2;
+}
+
+.b {
+  background-color: rgb(233, 140, 182);
+  height: 50%;
+  width: 33%;
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 30vh;
+}
+
+
+.c {
+  background-color: rgb(155, 80, 104);
+  height: 20vh;
+  height: 50%;
+  width: 33%;
+ 
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 30vh;
+}
+
+.d {
+  background-color: rgb(251, 164, 123);
+  height: 50%;
+  width: 33%;
+ 
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 30vh;
+}
+
+.e {
+  background-color: rgb(243, 83, 163);
+  height: 50%;
+  width: 33%;
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 30vh;
+}
+
+.f {
+  background-color: rgb(251, 154, 251);
+  height: 50%;
+  width: 33%;
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 30vh;
+}
+
+.g {
+  background-color: rgb(255, 189, 216);
+  height: 50%;
+  width: 33%;
+  flex-grow: 1;
+  min-width: 30%;
+  min-height: 30vh;
+}
+
+.h {
+  
+  background-color: rgb(250, 108, 132);
+  max-width: 100%;
+  flex-basis: 100%;
+  height: 35vh;
+  flex-grow: 2;
+  
+}
+
+@media (min-width: 600px) {
+  .containter{
+    flex-direction: column;
+  }
+  .work{
+    flex-basis: 80%;
+    max-width: 80%;
+  }
+  .h {
+    width: 20%;
+    flex-basis: 20%;
+    min-height: 100vh;
+    max-width: 20%;
+    align-self: right;
+    align-self: end;
+    flex:1;
+  
+  }
 }
